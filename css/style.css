@@ -1,0 +1,45 @@
+.navbar{
+    box-shadow: 2px 2px 10px #32926a
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(50,146,166,.7), rgba(50,146,166,.7)) , url(../images/mountains.jpg);
+    background-size: cover;
+}
+
+.hello{
+    margin-top: -70px;
+}
+#section-form{
+    background-color: #f4f4f4
+}
+@media (max-width: 991px){
+    header h2.display-4{
+        font-size: 2.5rem
+    }
+    header img{
+        
+        margin-top: 50px;
+    }
+    
+}
+@media (max-width: 767px){
+    header{
+        height: 750px;
+    }
+    header img{
+        height: 288px;
+        width: 300px;
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    #section-author .icons{
+        justify-content: space-around!important;
+    }
+    
+}
